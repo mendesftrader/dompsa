@@ -93,10 +93,8 @@ button:hover.delete-btn {
     padding: 10px;
     border-radius: 8px;
     color: #4a90e2;
-    background-color: #07060659;
     margin-right: 90%;
     margin-left: 10px;
-    border: 3px solid #070606;
 }
 
 .counter.red {
@@ -166,7 +164,7 @@ table tr {
         font-size: 2rem;
     }
     
-    .container {
+    .container, .login {
         padding: 15px;
     }
 
@@ -174,7 +172,7 @@ table tr {
         padding: 8px;
     }
 
-    input[type="number"], input[type="text"], button {
+    input[type="number"], input[type="text"], button, label {
         font-size: 0.9rem;
         padding: 8px;
     }
